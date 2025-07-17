@@ -1,4 +1,33 @@
-# pyspark
+# Netflix Customer Churn Analysis (PySpark on Databricks)
+
+This project explores customer churn patterns from a Netflix-like dataset using PySpark in a Databricks environment.
+
+## 🔍 Key Analyses
+- Age range grouping (e.g., 31–40, 41–50)
+- Subscription plan breakdown by age group
+- Churn rate calculation by age group
+- Descriptive stats for monthly fees (mean, std dev, min, max)
+
+## 📊 Sample Insights
+- Churn rate is highest in the 71–80 age group (56.99%)
+- Most common subscription in the 31–50 age range: Standard
+- Average monthly fee across all users: $13.68 (± $3.69)
+
+## 🛠️ Tools & Tech
+- PySpark
+- Databricks Notebook
+- pandas (optional export)
+- Markdown + Visuals
+
+## 📁 Files
+- `notebook.py` – Databricks Python notebook with analysis
+- `netflix_customer_churn.csv` – Sample dataset
+- `README.md` – This file
+
+## 🚀 Next Steps
+- Churn rate by region/device/subscription type
+- Visualizations with matplotlib/seaborn (via `.toPandas()`)
+- Logistic regression churn prediction
 
 <img width="625" height="460" alt="Screenshot 2025-07-16 at 9 00 00 PM" src="https://github.com/user-attachments/assets/2d074401-0e86-4cf6-8b83-fa0b006ca8cc" />
 <img width="628" height="407" alt="Screenshot 2025-07-16 at 9 01 13 PM" src="https://github.com/user-attachments/assets/d2abf14a-2a0b-4df8-aff3-29ef47dc8a8a" />
